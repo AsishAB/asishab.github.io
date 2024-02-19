@@ -8,19 +8,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive Resume Template">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <meta name="author">    
     <link rel="shortcut icon" href="my-logo.png"> 
     
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="css/google-api-fonts.css" rel="stylesheet">
     
     <!-- FontAwesome JS-->
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">   
+
+    <link rel="stylesheet" href="css/font-awesome.css" />
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">   
     <!-- Theme CSS -->  
-	<link id="custom-style" rel="stylesheet" href="custom-design.css">
-    <link id="theme-style" rel="stylesheet" href="pillar-1.css">
+	<link id="custom-style" rel="stylesheet" href="css/custom-css/custom-design.css">
+    <link id="theme-style" rel="stylesheet" href="css/custom-css/pillar-1.css">
 
 </head> 
 
@@ -37,7 +39,7 @@
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Asish Bishoi</h1>
-							    <div class="title mb-3">Assistant System Engineer at <i>Tata Consultancy Services</i></div>
+							    <div class="title mb-3">Systems Engineer at <i>Tata Consultancy Services</i></div>
 								
 							    <ul class="list-unstyled">
 								    <li class="mb-2"><a class="text-link" href="javascript:void(0)"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><span class="spoiler">asish.bishoi@gmail.com</span></a></li>
@@ -47,7 +49,7 @@
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
 							    <ul class="resume-social list-unstyled">
-					                	<li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/asishbishoi24/" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span>Linkedin</a></li>
+					                	<li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/asishbishoi24/" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span>LinkedIn</a></li>
 					                	<li class="mb-3"><a class="text-link" href="https://github.com/AsishAB" target="_blank"><span class="fa-container text-center me-2" ><i class="fab fa-github-alt fa-fw"></i></span>GitHub</a></li>
 							    </ul>
 						    </div><!--//secondary-info-->
@@ -62,14 +64,18 @@
 				    <div class="resume-section-content">
 					    <p class="mb-0">
                             <ul>
-                                <li><b>3 years</b> of hands-on experience in developing, implementing, and maintaining technology solutions.</li>
-								<li>Currently working as <b>Assistant System Engineer</b> at <b>Tata Consultancy Services</b></li>
-								<li>AWS Certified Cloud Engineer with experience in maintaining applications in AWS cloud using services like <b>EC2, S3, Lambda, RDS</b> </li>
-								<li>Experience in migration of Cloud Contact Centers in <b> AWS Connect </b> </li>
-                                <li>Experience working in <b>Angular, HTML, CSS, Bootstrap, JavaScript, Typescript, jQuery, AJAX, JSON</b></li>
-                                <li>Experience in creating REST API and server-side programming in <b>Node JS, PHP & Laravel</b></li>
-								<li>Experience in Databases in <b>MySQL, MongoDB</b></li>
-                                <li>Experience in agile methodology and configuration tools - <b>Git, GitHub, Big Bucket, Jira </b></li>
+                                	<li> <b id="total_exp"> </b> of experience in developing, implementing, and maintaining technology solutions </li>
+									<li>Currently working as <b>Systems Engineer</b> at <b>Tata Consultancy Services (TCS) </b></li>
+									<li><b>AWS Certified </b>Cloud Engineer with experience in maintaining applications in AWS cloud using services like <b> S3, Lambda, DynamoDB, Redshift, SQS </b></li>
+									<li>Experience in using <b> CI/CD pipelines </b> for deploying AWS Resources</li>
+									<li>Experience in ETL Workflow using <b>AWS Glue </b></li>
+									<li>Experience in migration of Cloud Contact Centers in <b>AWS Connect</b> and <b>AWS Lex</b></li>
+									<li> Experience working in general-purpose programming language in <b>Python </b> </li>
+									<li>Experience in creating REST API and server-side programming in <b>Node JS </b> </li>
+									<li>Experience in Databases in <b>MySQL </b>, <b>MongoDB </b></li>
+									<li>Experience working in Front End Technologies in <b>Angular 2</b></li>
+									<li>Experience in agile methodology and configuration tools in <b> Git</b> & <b> Jira </b></li>
+
                                 
                             </ul>
                         </p>
@@ -80,7 +86,7 @@
 					    <div class="resume-section-content">
 						    <p class="mb-0">
 				    			<ul>
-									<li>AWS Certified Cloud Practitioner (CLF-C01) from Amazon Web Services (AWS)</li>
+									<li>Cloud Practitioner Certificate (CLF-C01) from Amazon Web Services (AWS)</li>
 					
 
 				    			</ul>
@@ -99,42 +105,42 @@
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">Tata Consultancy Services</h3>
-										        <div class="resume-company-name ms-auto">Assistant System Engineer</div>
+										        <div class="resume-company-name ms-auto">Systems Engineer</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">11 July 2022 - Present</div>
 									    </div>
 									    <div class="resume-timeline-item-desc">
 										    <p>Collaborated with a cross-functional team, originating from different geographic locations to successfully migrate and maintain an application hosted in AWS, utilizing a range of AWS services such as EC2, S3, and Connect
 											</p>
-										    <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold" style="display:none">Achievements:</h4>
-										    <p>
-											</p>  -->
-										    <!-- <ul>
-											    <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-											    <li>At vero eos et accusamus et iusto odio dignissimos.</li>
-											    <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-											    <li>Maecenas tempus tellus eget.</li>
-										    </ul> -->
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+										   	<ul>
+											    <li> <b> On The Spot </b> Award for successfully completing the Generative AI (Gen AI) Certification</li>
+											    <li> <b> Innovation Pride </b> Award for my contribution to the Organisation</li>
+											    
+										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Amazon Web Services (AWS)</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">MEAN Stack</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Node JS</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Python</span></li>
 											</ul>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Cloud Services used:</h4>
 										    <ul class="list-inline">
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">EC2</span></li>
+										    	<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Identity and Access Management (IAM)</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Glue</span></li>
 												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">S3</span></li>
 												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Lambda</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">CloudFront</span></li>
-												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">CloudWatch</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Simple Queueing Services (SQS)</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redshift</span></li>
 												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">DynamoDB</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Event Bridge</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Key Management Services (KMS)</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">CloudWatch</span></li>
 												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Connect</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Lex</span></li>
 											</ul>
-											   
-										 
-									    </div>
-
-								    </article>
+										</div>
+									</article>
 
 								    <article class="resume-timeline-item position-relative pb-5">
 									    
@@ -182,6 +188,60 @@
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
+							    	  <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">MIGRATION OF PAYMENTS DATA USING ETL WORKFLOW FROM ON-PREMISE SERVERS TO AWS</h3>
+										        <div class="resume-company-name ms-auto">Bank of Montreal (BMO), Canada</div>
+										    </div><!--//row-->
+										    
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Migration of over 2 Terabytes (2 TB) of Payments data from On-Premise servers to AWS
+											</p>
+											<p>
+												Responsibilities in the Project :
+											</p>
+											<small>
+												<ul>    
+													<li>Designed and procured the AWS infrastructure, provisioning the required AWS Services</li>
+													<li>Collaborated with my team to create a Spark script for transforming and loading Payments Data from S3 Bucket to Redshift using AWS Glue</li>
+													<li>Implemented backup strategies in AWS Redshift, ensuring data integrity and disaster recovery readiness</li>
+													<li>Developed a script to transform and backup Payments Data from Redshift to S3 using AWS Glue</li>
+													<li>Monitored the logs and error reports in real time using AWS CloudWatch</li>
+													<li>Developed utilities using Lambda Function to insert/update data into DynamoDB Tables</li>
+													<li>Developed a User Defined Function (UDF) using Lambda Function to decrypt the data in Redshift Database, to be used for PowerBi report generation</li>
+												</ul>
+											</small>
+										</div>
+
+								    </article>
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">MAINTENANCE OF INTERACTIVE AND GUIDED CHATBOT USING AWS LEX </h3>
+										        <div class="resume-company-name ms-auto">NHS Walton, UK</div>
+										    </div><!--//row-->
+										    
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Maintenance of Interactive and Guided Chatbot using AWS Lex for NHS Walton, UK
+											</p>
+											<p>
+												Responsibilities in the Project :
+											</p>
+											<small>
+												<ul>    
+													<li>Was responsible for maintenance of a Chatbot developed using AWS Lex for different types of Headaches for patients</li>
+													<li>Performed Query Operations on CloudWatch Log Insights to visualise different types of data related to the Chatbot analytics</li>
+
+												</ul>
+											</small>
+										</div>
+
+								    </article>
 								    <article class="resume-timeline-item position-relative pb-5">
 									    
 									    <div class="resume-timeline-item-header mb-2">
@@ -247,7 +307,7 @@
 										    
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>ONLINE PORTAL FOR SELLING OF SAREES. 
+										    <p>Online Portal For Selling Of Sarees 
 											</p>
 											<p>
 												Responsibilities in the Project :
@@ -275,9 +335,9 @@
 										    
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>WEB APPLICATION FOR NOMINATIONS TO VARIOUS
-												ELECTION TYPES LIKE GRAM PANCHAYAT, PANCHAYAT SAMITI, MNC, NAC MEMBER, ETC. THE ELECTION RULES,
-												NOMINATION FILING RULES, ELECTION DATES ARE SET BY THE ADMINISTRATOR.
+										    <p>Web Application For Nominations To Various
+												Election Types Like Gram Panchayat, Panchayat Samiti, Mnc, Nac Member, etc. The Election Rules,
+												Nomination Filing Rules, Election Dates Are Set By The Administrator
 											</p>
 											<p>
 												Responsibilities in the Project :
@@ -306,10 +366,10 @@
 										    
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>DEVELOPMENT OF E-GOVERNANCE WEB BASED SOLUTION
-												FOR THE ODISHA PUBLIC SERVICE COMMISSION (OPSC) TO AUTOMATE ITS PROMOTION AND DISCIPLINARY WINGS WITH 5 YEARS SUPPORT. ODISHA
-												IS THE FIRST STATE PUBLIC SERVICE COMMISSION IN INDIA TO
-												IMPLEMENT SUCH A SYSTEM IN PLACE. 
+										    <p>Development Of E-Governance Web Based Solution
+												For The Odisha Public Service Commission (OPSC) To Automate Its Promotion And Disciplinary Wings. Odisha
+												Is The First State Public Service Commission In India To
+												Implement Such A System In Place
 											</p>
 											<p>
 												Responsibilities in the Project :
@@ -328,36 +388,7 @@
 
 								    </article>
 									
-									<article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">WATER RESOURCES, GOVT OF ODISHA</h3>
-										        <div class="resume-company-name ms-auto">Dept. of Water Resources, Govt. of Odisha</div>
-										    </div><!--//row-->
-										    
-									    </div><!--//resume-timeline-item-header-->
-									    <div class="resume-timeline-item-desc">
-										    <p>AUTOMATION OF WATER RESOURCES DEPARTMENT – CMS, NEW
-												CONNECTION (INDUSTRIAL WATER ALLOCATION), MBC (WATER METERING, BILLING AND COLLECTION), WATER
-												RESOURCE PROJECTS, DASHBOARD AND PLANNING
-											</p>
-											<p>
-												Responsibilities in the Project :
-											</p>
-											<small>
-												<ul>
-													<li>Streamline the water connection process Monthly reading and billing</li>
-													<li>Online bill payment</li>
-													<li>Dynamic Dashboard with real time data tracking to predict the water consumption to availability</li>
-
-												</ul>
-											</small>
-										    
-										    
-									    </div>
-
-								    </article>
+									
 								
 							    </div>
 						  </div>
@@ -378,6 +409,22 @@
 								    </ul>
 						        </div><!--//resume-skill-item-->
 						    <div class="resume-section-content">
+						    	<div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Programming Language</h4>
+							        <!-- <ul class="list-unstyled"> -->
+									<ul>
+										<li class="mb-2">
+								            <div class="resume-skill-name">Python</div>
+									       
+								        </li>
+										<li class="mb-2">
+								            <div class="resume-skill-name">Node JS</div>
+									       
+								        </li>
+										
+								        
+							        </ul>
+						        </div><!--//resume-skill-item-->
 						        <div class="resume-skill-item">
 							        <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
 							        <!-- <ul class="list-unstyled mb-4"> -->
@@ -390,17 +437,22 @@
 											
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">jQuery</div>
-									        <!-- <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div> -->
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">JavaScript</div>
-									        <!-- <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-											</div> -->
-								        </li>
+								        	
+									            <div class="resume-skill-name">JavaScript</div>
+										        <!-- <div class="progress resume-progress">
+												    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div> -->
+								        	</li>
+								    	
+								    	<li class="mb-2">
+								        	
+									            <div class="resume-skill-name">jQuery & Ajax</div>
+										        <!-- <div class="progress resume-progress">
+												    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div> -->
+								        	
+								    	</li>
+								            
 								        <li class="mb-2">
 								            <div class="resume-skill-name">BootStrap</div>
 									        <!-- <div class="progress resume-progress">
@@ -411,27 +463,7 @@
 							        </ul>
 						        </div><!--//resume-skill-item-->
 						        
-						        <div class="resume-skill-item">
-						            <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
-							        <!-- <ul class="list-unstyled"> -->
-									<ul>
-										<li class="mb-2">
-								            <div class="resume-skill-name">Node JS</div>
-									        <!-- <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-											</div> -->
-								        </li>
-									
-								        <li class="mb-2">
-								            <div class="resume-skill-name">PHP & Laravel</div>
-									        <!-- <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div> -->
-								        </li>
-								        
-								        
-							        </ul>
-						        </div><!--//resume-skill-item-->
+						        
 								<div class="resume-skill-item">
 						            <h4 class="resume-skills-cat font-weight-bold">Databases</h4>
 							        <ul class="">
@@ -444,10 +476,7 @@
 								            <div class="resume-skill-name">MongoDB</div>
 									        <!--  -->
 								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">PostgreSQL</div>
-									        <!--  -->
-								        </li>
+								       
 								        
 							        </ul>
 						        </div><!--//resume-skill-item-->
@@ -456,11 +485,11 @@
 							        <ul class="">
 										
 								        <li class="mb-2">
-								            <div class="resume-skill-name">Git & GitHub</div>
+								            <div class="resume-skill-name">Git </div>
 									        
 								        </li>
 										 <li class="mb-2">
-								            <div class="resume-skill-name">Big Bucket</div>
+								            <div class="resume-skill-name">GitHub & Big Bucket</div>
 									        
 								        </li>
 										<li class="mb-2">
@@ -577,10 +606,40 @@
     <footer class="footer text-center pt-2 pb-5">
 	    <small class="copyright">&copy; <script type="text/javascript">document.write( new Date().getFullYear() );</script>. Asish Bishoi</small><br>
         <small class="copyright">Original Design by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small><br>
-		<small class="copyright">Powered By <a href="https://www.w3schools.com/" target="_blank">W3Schools</a></small>
+		
     </footer>
 
-    
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+    		getExp();
+		});
+		function getExp(){
+			//For Company 1
+			const joining_company1 = new Date('2020-06-20');
+			const lastdate_company1 = new Date('2022-06-13');
+			const diff_company1 = lastdate_company1.getTime() - joining_company1.getTime();
+
+			// For Company 2
+			const joining_company2 = new Date('2022-07-11');
+			const lastdate_company2 = new Date()
+			const diff_company2 = lastdate_company2.getTime() - joining_company2.getTime();
+
+			const total_exp = diff_company1 + diff_company2;
+			var total_years = total_exp / (1000 * 60 * 60 * 24 * 365.25);
+			total_years = Math.ceil(total_years * 10) / 10;
+			// console.log(total_years);
+			$("#total_exp").text(total_years + " years")
+			
+		}
+		
+	</script>
+	<noscript>
+		<div>
+			This page does not work when Scripts are disabled
+		</div>
+	</noscript>
 </body>
 </html> 
