@@ -219,12 +219,12 @@
 											<small>
 												<ul>    
 													<li>Designed and procured the AWS infrastructure, provisioning the required AWS Services</li>
-													<li>Collaborated with my team to create a Spark script for transforming and loading Payments Data from S3 Bucket to Redshift using AWS Glue</li>
+													
 													<li>Implemented backup strategies in AWS Redshift, ensuring data integrity and disaster recovery readiness</li>
-													<li>Developed a script to transform and backup Payments Data from Redshift to S3 using AWS Glue</li>
 													<li>Monitored the logs and error reports in real time using AWS CloudWatch</li>
+													<li>Created a Utility to create Schemas and Tables in Redshift Cluster using Lambda Function</li>
 													<li>Developed utilities using Lambda Function to insert/update data into DynamoDB Tables</li>
-													<li>Developed a User Defined Function (UDF) using Lambda Function to decrypt the data in Redshift Database, to be used for PowerBi report generation</li>
+													<li>Created a User Defined Function (UDF) using Lambda Function to decrypt the data in Redshift Database, to be used for PowerBi report generation</li>
 												</ul>
 											</small>
 										</div>
@@ -235,13 +235,13 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">CLOUD MIGRATION AND MAINTENANCE OF APPLICATION ON AWS</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">CLOUD MIGRATION OF CONTACT CENTRE TO AWS</h3>
 										        <div class="resume-company-name ms-auto">Panasonic Corporation of North America</div>
 										    </div><!--//row-->
 										    
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Maintenance of the application and Migration of Cloud Contact Centre for Panasonic Corporation of North America
+										    <p>Migration of Cloud Contact Centre to AWS for Panasonic Corporation of North America
 											</p>
 											<p>
 												Responsibilities in the Project :
@@ -623,7 +623,7 @@
 			const diff_company2 = lastdate_company2.getTime() - joining_company2.getTime();
 
 			const total_exp = diff_company1 + diff_company2;
-			var total_years = total_exp / (1000 * 60 * 60 * 24 * 365.25);
+			var total_years = total_exp / (1000 * 60 * 60 * 24 * 365.25); //365.25 to get a better accuracy for Leap Years
 			total_years = Math.ceil(total_years * 10) / 10;
 			// console.log(total_years);
 			$("#total_exp").text(total_years + " years")
