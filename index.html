@@ -604,7 +604,11 @@
 			const diff_company2 = lastdate_company2.getTime() - joining_company2.getTime();
 
 			const total_exp = diff_company1 + diff_company2;
-			var total_years = total_exp / (1000 * 60 * 60 * 24 * 365.25); //365.25 to get a better accuracy for Leap Years
+
+			//365.25 to get a better accuracy for Leap Years, but most companies do not consider that
+			
+			var total_years = total_exp / (1000 * 60 * 60 * 24 * 365); 
+
 			total_years = Math.ceil(total_years * 10) / 10;
 			// console.log(total_years);
 			$("#total_exp").text(total_years + " years")
