@@ -676,7 +676,12 @@
 			const lastdate_company2 = new Date('2024-05-21')
 			const diff_company2 = lastdate_company2.getTime() - joining_company2.getTime();
 
-			const total_exp = diff_company1 + diff_company2;
+			// For Company 3
+			const joining_company3 = new Date('2024-07-04');
+			const lastdate_company3 = new Date()
+			const diff_company3 = lastdate_company3.getTime() - joining_company3.getTime();
+
+			const total_exp = diff_company1 + diff_company2 + diff_company3;
 
 			//365.25 to get a better accuracy for Leap Years, but most companies do not consider that
 			
