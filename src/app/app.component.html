@@ -1,0 +1,157 @@
+<app-navbar></app-navbar>
+
+<app-header></app-header>
+
+<main class="container">
+  <div class="row g-4">
+    <!-- Main Content Column -->
+    <div class="col-lg-8">
+      <app-career-summary></app-career-summary>
+
+      <!-- Work Experience -->
+      <section id="experience" class="card border-0 shadow-sm p-4 mb-4">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <lucide-angular [img]="Briefcase" size="20" class="text-primary"></lucide-angular>
+          <h2 class="h5 fw-bold text-dark mb-0 text-uppercase">Work Experience</h2>
+        </div>
+        <div class="timeline">
+          <div *ngFor="let exp of experiences" class="timeline-item pb-5 position-relative ps-4 border-start border-2 border-light">
+            <div class="timeline-dot position-absolute start-0 top-0 translate-middle-x bg-white border border-primary border-4 rounded-circle" style="width: 16px; height: 16px;"></div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+              <div>
+                <h3 class="h6 fw-bold text-dark mb-0">{{exp.company}}</h3>
+                <p class="text-primary fw-semibold small mb-0">{{exp.role}}</p>
+              </div>
+              <span class="x-small fw-bold text-muted text-uppercase mt-1">{{exp.period}}</span>
+            </div>
+            <ul class="list-unstyled small text-muted mb-3">
+              <li *ngFor="let desc of exp.description" class="mb-2">• {{desc}}</li>
+            </ul>
+            <div *ngIf="exp.cloudServices" class="d-flex flex-wrap gap-2">
+              <span *ngFor="let service of exp.cloudServices" class="badge bg-light text-muted border small py-1 px-2 fw-bold text-uppercase">{{service}}</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="card border-0 shadow-sm p-4 mb-4">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <lucide-angular [img]="Code2" size="20" class="text-primary"></lucide-angular>
+          <h2 class="h5 fw-bold text-dark mb-0 text-uppercase">Key Projects</h2>
+        </div>
+        <div class="row g-4">
+          <div *ngFor="let project of projects" class="col-12">
+            <div class="p-4 bg-light rounded border border-light-subtle">
+              <div class="mb-3">
+                <h3 class="h6 fw-bold text-dark mb-1">{{project.title}}</h3>
+                <p class="x-small text-primary fw-bold text-uppercase mb-0">{{project.client}}</p>
+              </div>
+              <p class="small text-muted mb-3 fst-italic">{{project.description}}</p>
+              <ul class="list-unstyled small text-muted mb-0">
+                <li *ngFor="let resp of project.responsibilities" class="mb-1">
+                  <span class="text-primary fw-bold">›</span> {{resp}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Sidebar Column -->
+    <div class="col-lg-4">
+      
+      <!-- Skills -->
+      <section id="skills" class="card border-0 shadow-sm p-4 mb-4">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <lucide-angular [img]="Award" size="20" class="text-primary"></lucide-angular>
+          <h2 class="h5 fw-bold text-dark mb-0 text-uppercase">Skills & Tools</h2>
+        </div>
+        <div class="space-y-4">
+          <div class="mb-4">
+            <h4 class="x-small fw-bold text-uppercase text-muted mb-3 tracking-widest">Cloud</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-primary text-white py-1 px-2">AWS</span>
+              <span class="badge bg-light text-muted border py-1 px-2">Snowflake</span>
+              <span class="badge bg-light text-muted border py-1 px-2">Databricks</span>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h4 class="x-small fw-bold text-uppercase text-muted mb-3 tracking-widest">Programming</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-muted border py-1 px-2">Python</span>
+              <span class="badge bg-light text-muted border py-1 px-2">Node JS</span>
+              <span class="badge bg-light text-muted border py-1 px-2">Flask</span>
+              <span class="badge bg-light text-muted border py-1 px-2">Angular</span>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h4 class="x-small fw-bold text-uppercase text-muted mb-3 tracking-widest">Databases</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-muted border py-1 px-2">MySQL</span>
+              <span class="badge bg-light text-muted border py-1 px-2">MongoDB</span>
+              <span class="badge bg-light text-muted border py-1 px-2">DynamoDB</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="x-small fw-bold text-uppercase text-muted mb-3 tracking-widest">CI/CD</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-muted border py-1 px-2">Jenkins</span>
+              <span class="badge bg-light text-muted border py-1 px-2">GitHub Actions</span>
+              <span class="badge bg-light text-muted border py-1 px-2">Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="card border-0 shadow-sm p-4 mb-4">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <lucide-angular [img]="GraduationCap" size="20" class="text-primary"></lucide-angular>
+          <h2 class="h5 fw-bold text-dark mb-0 text-uppercase">Education</h2>
+        </div>
+        <div class="space-y-4">
+          <div class="mb-4">
+            <h4 class="small fw-bold text-dark mb-1">B.Tech in Electrical Engineering</h4>
+            <p class="x-small text-muted mb-1">Veer Surendra Sai University of Technology</p>
+            <p class="x-small fw-bold text-muted">2014 — 2018</p>
+          </div>
+          <div>
+            <h4 class="small fw-bold text-dark mb-1">Senior Secondary</h4>
+            <p class="x-small text-muted mb-1">Mother's Public School</p>
+            <p class="x-small fw-bold text-muted">2013 — 2014</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="card border-0 shadow-sm p-4 mb-4">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <lucide-angular [img]="Cloud" size="20" class="text-primary"></lucide-angular>
+          <h2 class="h5 fw-bold text-dark mb-0 text-uppercase">Certifications</h2>
+        </div>
+        <div class="space-y-3">
+          <div class="d-flex align-items-start gap-3 mb-3">
+            <lucide-angular [img]="Award" size="14" class="text-primary mt-1"></lucide-angular>
+            <div>
+              <h4 class="small fw-bold text-dark mb-0">AWS Cloud Practitioner</h4>
+              <p class="x-small text-muted text-uppercase fw-bold">CLF-C01</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-start gap-3">
+            <lucide-angular [img]="Award" size="14" class="text-primary mt-1"></lucide-angular>
+            <div>
+              <h4 class="small fw-bold text-dark mb-0">MongoDB SI Associate</h4>
+              <p class="x-small text-muted text-uppercase fw-bold">Certified</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<app-footer></app-footer>

@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.bg-primary {
+  background-color: #1a365d !important;
+}
+
+.text-primary {
+  color: #1a365d !important;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.x-small {
+  font-size: 0.7rem;
+}
+
+.min-width-120 {
+  min-width: 120px;
+}
+
+.hover-opacity-100:hover {
+  opacity: 1 !important;
+}
+
+.timeline-item:last-child {
+  border-left: none !important;
+  padding-bottom: 0 !important;
+}
+
+.timeline-dot {
+  z-index: 1;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+.space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
