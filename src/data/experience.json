@@ -1,0 +1,43 @@
+{
+  "experiences": [
+    {
+      "company": "Infosys",
+      "role": "Associate Consultant",
+      "period": "July 2024 - Present",
+      "startDate": "2024-07-04",
+      "description": [
+        "Co-ordinated and implemented an architectural framework to process 5 GB of data per day, orchestrating data movement from AWS S3 to Snowflake and Databricks Unity Catalog using automated ETL Jobs.",
+        "Built a Spark Based AWS Glue ETL Job, processing over 2000 files per day, converting CSV files from S3 Bucket to Delta format, and updating DynamoDB table with run metadata.",
+        "Developed a scalable API to dynamically connect to multiple MongoDB and SQL Server databases using TTL-based eviction, improving performance by 40%."
+      ],
+      "cloudServices": ["Glue", "S3", "Lambda", "SNS", "SQS", "Snowflake", "DynamoDB", "Event Bridge", "KMS", "CloudWatch"]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Systems Engineer",
+      "period": "July 2022 - May 2024",
+      "startDate": "2022-07-11",
+      "endDate": "2024-05-21",
+      "description": [
+        "Collaborated with cross-functional teams to migrate applications to AWS using S3, Lambda, Glue, and Redshift.",
+        "Optimized AWS Infrastructure, reducing compute costs for AWS Lambda Functions by almost 60%.",
+        "Designed and implemented an automated scheduler for the Redshift cluster, resulting in a 40% cost reduction.",
+        "Implemented Microservice based approach for independent deployment and scaling."
+      ],
+      "cloudServices": ["IAM", "Glue", "S3", "Lambda", "SQS", "Redshift", "DynamoDB", "Event Bridge", "KMS", "CloudWatch", "Connect", "Lex"]
+    },
+    {
+      "company": "Nirmalya Labs Pvt. Ltd.",
+      "role": "Software Development Engineer-II (SDE-II)",
+      "period": "June 2020 - June 2022",
+      "startDate": "2020-06-20",
+      "endDate": "2022-06-13",
+      "description": [
+        "Developed full-stack web applications processing data for over 50,000 concurrent users.",
+        "Built custom enterprise-level data visualization tools with interactive graphical interfaces.",
+        "Mentored team members on Kibo E-commerce platform and database security optimization."
+      ]
+    }
+  ]
+  
+}

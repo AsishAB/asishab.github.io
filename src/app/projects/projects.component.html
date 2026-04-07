@@ -1,0 +1,24 @@
+
+      <!-- Projects -->
+      <section id="projects" class="card border-0 shadow-sm p-4 mb-4">
+        <div class="d-flex align-items-center gap-2 mb-4 pb-2 border-bottom">
+          <lucide-angular [img]="Code2" size="20" class="text-primary"></lucide-angular>
+          <h2 class="h5 fw-bold text-dark mb-0 text-uppercase">Key Projects</h2>
+        </div>
+        <div class="row g-4">
+          <div *ngFor="let project of projects" class="col-12">
+            <div class="p-4 bg-light rounded border border-light-subtle">
+              <div class="mb-3">
+                <h3 class="h6 fw-bold text-dark mb-1">{{project.title}}</h3>
+                <p class="x-small text-primary fw-bold text-uppercase mb-0">{{project.client}}</p>
+              </div>
+              <p class="small text-muted mb-3 fst-italic">{{project.description}}</p>
+              <ul class="list-unstyled small text-muted mb-0">
+                <li *ngFor="let resp of project.responsibilities" class="mb-1">
+                  <span class="text-primary fw-bold">›</span> {{resp}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>

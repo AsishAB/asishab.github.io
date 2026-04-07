@@ -20,6 +20,8 @@
       ]
     },
     "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "noEmit": false
   }
 }
