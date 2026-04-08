@@ -1,0 +1,33 @@
+<!-- Bootstrap-style Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" routerLink="/">
+      <div class="bg-white bg-opacity-10 rounded px-2 py-1 fw-bold">AB</div>
+      <span class="fw-bold tracking-tight">Asish Bishoi</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      </ul>
+      <div class="d-flex gap-3 ms-lg-4 mt-3 mt-lg-0">
+        <a href="https://linkedin.com/in/asishbishoi/" target="_blank" class="text-white opacity-75 hover-opacity-100">
+          <lucide-angular [img]="Linkedin" size="18"></lucide-angular>
+        </a>
+        <a href="https://github.com/AsishAB" target="_blank" class="text-white opacity-75 hover-opacity-100">
+          <lucide-angular [img]="Github" size="18"></lucide-angular>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item"><a class="nav-link" routerLink="/old">Old Site</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

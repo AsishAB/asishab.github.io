@@ -1,0 +1,56 @@
+{
+    "projects": [
+    {
+      "title": "Cloud-Native Data Processing & API Optimization",
+      "client": "Travelers Insurance, USA",
+      "description": "Designed and implemented a cloud-native data platform to automate large-scale ETL processing and optimize API performance.",
+      "responsibilities": [
+        "Built a Spark-based ETL pipeline in AWS Glue to ingest and transform data from Amazon S3, enabling seamless integration with Snowflake, MongoDB, and Databricks.",
+        "Developed a Python Flask API to orchestrate data ingestion from multiple external URLs, perform ETL transformations using pandas, and store processed data in MongoDB and S3.",
+        "Engineered a Node.js-based API service to establish dynamic connections with multiple MongoDB and SQL Server databases, enabling unified and efficient data access.",
+        "Authored Terraform scripts to provision and manage AWS infrastructure, ensuring consistent and automated deployment of application resources."
+      ]
+    },
+    {
+      "title": "Migration of Payments Data to AWS",
+      "client": "Bank of Montreal (BMO), Canada",
+      "description": "Migration of over 2 TB of payment data from on-premise servers to AWS Cloud using ETL workflows.",
+      "responsibilities": [
+        "Developed cloud infrastructure with TypeScript and Terraform.",
+        "Automated storage of configuration data in DynamoDB using Lambda.",
+        "Engineered UDF leveraging Lambda to decrypt sensitive payment data within Redshift."
+      ]
+    },
+    {
+      "title": "Cloud Migration of Contact Centre to AWS",
+      "client": "Panasonic Corporation of North America",
+      "description": "Designed and implemented a cloud-native data platform to automate large-scale ETL processing, optimize API performance, and enable secure, scalable data integration across enterprise systems.",
+      "responsibilities": [
+        "Collaborated with a team of 4 members for migration of contact center operations to AWS, while ensuring minimal impact on crucial business functions.",
+        "Configured Contact flows, Queues, Routing Profiles, Users, Agents, and working hours in AWS Connect, and a guided chatbot using Amazon Lex, to enhance customer engagement.",
+        "Integrated the Amazon Lex chatbot with a DynamoDB table through a Lambda function to dynamically retrieve user details, personalizing the customer experience."
+      ]
+    },
+    {
+      "title": "Online Applications for Various Election Nominations",
+      "client": "State Election Commission, Govt. of Odisha",
+      "description": "Web Application for Nominations to Various Election Types like Gram Panchayat, Panchayat Samiti, MNC, NAC Member, etc. The Election Rules, Nomination Filing Rules, and Election Dates are set by the Administrator.",
+      "responsibilities": [
+        "Developed a full stack web application to digitize the process of filing of nomination of electoral candidates, ensuring efficiency and accuracy for election procedures.",
+        "Implemented online payment for nomination fees, and online and offline withdrawal processes of candidate's application.",
+        "Created an interface for electoral officers to evaluate candidate eligibility.",
+        "Deployed application on Linux based cloud production environment."
+      ]
+    },
+    {
+      "title": "E-Commerce Platform for Clothing & Apparel",
+      "client": "Utkarsha Kala",
+      "description": "Online Portal for Selling of Clothing & Apparel.",
+      "responsibilities": [
+        "Developed and maintained ecommerce website, including product catalog, checkout process, and payment gateway integration.",
+        "Created and managed content for website, including product descriptions, blog posts, reviews by customers and other marketing materials.",
+        "Designed and implemented a portal facilitating administrators in managing product listings, generating promotional coupon codes, overseeing order processing and shipping status."
+      ]
+    }
+  ]
+}

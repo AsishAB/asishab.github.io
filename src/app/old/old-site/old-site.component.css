@@ -1,0 +1,33 @@
+@import url('../../../../OLD/css/google-api-fonts.css');
+@import url('../../../../OLD/css/font-awesome.css');
+@import url('../../../../OLD/css/bootstrap.min.css');
+@import url('../../../../OLD/css/custom-css/pillar-1.css');
+
+.spoiler{
+		background-color: gray;
+		color: transparent;
+		user-select: none;
+	}
+	.spoiler:hover{
+		background-color: inherit;
+		color: inherit;
+	}
+
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #F7F8FA;
+  color: #434E5E;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+:host a {
+  color: #434E5E;
+}
+
+:host a:hover {
+  color: #232931;
+}
