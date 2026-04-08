@@ -28,3 +28,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist/portfolio
+
+    - name: Copy 404.html for routing
+      run: cp ./404.html ../404.html
