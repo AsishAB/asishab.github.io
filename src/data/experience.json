@@ -6,9 +6,11 @@
       "period": "July 2024 - Present",
       "startDate": "2024-07-04",
       "description": [
-        "Co-ordinated and implemented an architectural framework to process 5 GB of data per day, orchestrating data movement from AWS S3 to Snowflake and Databricks Unity Catalog using automated ETL Jobs.",
-        "Built a Spark Based AWS Glue ETL Job, processing over 2000 files per day, converting CSV files from S3 Bucket to Delta format, and updating DynamoDB table with run metadata.",
-        "Developed a scalable API to dynamically connect to multiple MongoDB and SQL Server databases using TTL-based eviction, improving performance by 40%."
+        "Led design of modular RAG platform components, decoupling retrieval logic from orchestration to enable reuse across multiple applications and reduce onboarding effort for new use cases.",
+    "Owned retrieval and re-ranking layer, implementing semantic search and ranking (cosine and LLM-based) to improve relevance of results for downstream chatbot applications.",
+    "Co-ordinated and implemented an architectural framework to process 5 GB of data per day, orchestrating data movement from AWS S3 to Snowflake and Databricks Unity Catalog using automated ETL Jobs.",
+    "Built a Spark Based AWS Glue ETL Job, processing over 2000 files per day, converting CSV files from S3 Bucket to Delta format, and updating DynamoDB table with run metadata, with full error handling.",
+    "Developed a scalable API to dynamically connect to multiple MongoDB and SQL Server databases using TTL based eviction, while improving the performance by 40% (from 5 seconds to 3 seconds per call)."
       ],
       "cloudServices": ["Glue", "S3", "Lambda", "SNS", "SQS", "Snowflake", "DynamoDB", "Event Bridge", "KMS", "CloudWatch"]
     },
