@@ -1,6 +1,17 @@
 {
     "projects": [
     {
+      "title": "Enterprise GenAI Platform & Reusable RAG Framework",
+      "client": "Sentara Healthcare, USA",
+      "description": "Led architecture and development of a reusable enterprise AI platform, enabling rapid onboarding of GenAI applications through shared retrieval, ranking, ingestion, and orchestration capabilities.",
+      "responsibilities": [
+        "Architected implementation of shared platform capabilities across document ingestion, knowledge management, and AI application enablement, establishing reusable engineering patterns for future enterprise GenAI solutions.",
+        "Collaborated with business stakeholders, product owners, and solution architects to translate business requirements into technical designs, identify delivery risks, and align implementation strategies with enterprise architecture standards.",
+        "Provided technical leadership to the engineering team through architecture discussions, effort estimation, dependency management, and cross-functional coordination, ensuring successful delivery under evolving requirements.",
+        "Owned retrieval and re-ranking layer, implementing semantic search and ranking (cosine and LLM-based) to improve relevance of results for downstream chatbot applications."
+      ]
+    },
+    {
       "title": "Cloud-Native Data Processing & API Optimization",
       "client": "Travelers Insurance, USA",
       "description": "Designed and implemented a cloud-native data platform to automate large-scale ETL processing and optimize API performance.",
