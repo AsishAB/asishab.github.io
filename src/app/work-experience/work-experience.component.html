@@ -18,8 +18,8 @@
             <ul class="list-unstyled small text-muted mb-3">
               <li *ngFor="let desc of exp.description" class="mb-2">• {{desc}}</li>
             </ul>
-            <div *ngIf="exp.cloudServices" class="d-flex flex-wrap gap-2">
-              <span *ngFor="let service of exp.cloudServices" class="badge bg-light text-muted border small py-1 px-2 fw-bold text-uppercase">{{service}}</span>
+            <div *ngIf="exp.techStacks" class="d-flex flex-wrap gap-2">
+              <span *ngFor="let service of exp.techStacks" class="badge bg-light text-muted border small py-1 px-2 fw-bold text-uppercase">{{service}}</span>
             </div>
           </div>
         </div>

@@ -34,7 +34,8 @@ export class CareerSummaryComponent {
   readonly overallSummary = `
   Data Engineer with 5+ years of experience in AWS, Spark ETL, Snowflake, Databricks, 
   and API development, delivering scalable, cost-optimized enterprise solutions. 
-  Primary Skills- AWS , Python , Terraform, NodeJS
+  Primary Skills- AWS , Python , Terraform, Pyspark, Snowflake, Databricks, SQL, NoSSQL (MongoDB)
+  Secondary Skills - NodeJS, Git, CI/CD Tools (Jenkins, Github Actions)
   `;
 
 }

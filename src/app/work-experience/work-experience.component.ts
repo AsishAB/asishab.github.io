@@ -19,6 +19,10 @@ import experienceList from '../../data/experience.json';
 export class WorkExperienceComponent {
   readonly Briefcase = Briefcase;
 
-  experiences = experienceList.experiences;
+  // Normalize experience entries so template can rely on `techStacks`
+  experiences: any[] = (experienceList.experiences as any[]).map(exp => ({
+    ...exp,
+    techStacks: (exp as any).techStacks ?? (exp as any).cloudServices ?? []
+  }));
 
 }
