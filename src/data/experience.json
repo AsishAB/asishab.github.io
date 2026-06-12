@@ -1,10 +1,20 @@
 {
   "experiences": [
     {
+      "company": "Deloitte India",
+      "role": "Senior Consultant",
+      "period": "June 2026 - Present",
+      "startDate": "2026-06-10",
+      "description": [
+        ],
+      "techStacks": ["GenAI","AWS","Python", "PySpark","MySQL","MongoDB","Snowflake", "Databricks"]
+    },
+    {
       "company": "Infosys",
       "role": "Associate Consultant",
-      "period": "July 2024 - Present",
+      "period": "July 2024 - June 2026",
       "startDate": "2024-07-04",
+      "endDate": "2026-06-08",
       "description": [
         "Led design of modular RAG platform components, decoupling retrieval logic from orchestration to enable reuse across multiple applications and reduce onboarding effort for new use cases.",
     "Owned retrieval and re-ranking layer, implementing semantic search and ranking (cosine and LLM-based) to improve relevance of results for downstream chatbot applications.",
@@ -12,7 +22,7 @@
     "Built a Spark Based AWS Glue ETL Job, processing over 2000 files per day, converting CSV files from S3 Bucket to Delta format, and updating DynamoDB table with run metadata, with full error handling.",
     "Developed a scalable API to dynamically connect to multiple MongoDB and SQL Server databases using TTL based eviction, while improving the performance by 40% (from 5 seconds to 3 seconds per call)."
       ],
-      "cloudServices": ["Glue", "S3", "Lambda", "SNS", "SQS", "Snowflake", "DynamoDB", "Event Bridge", "KMS", "CloudWatch"]
+      "techStacks": ["GenAI","AWS","Python", "PySpark","MySQL","MongoDB","Snowflake", "Databricks"]
     },
     {
       "company": "Tata Consultancy Services",
@@ -26,7 +36,7 @@
         "Designed and implemented an automated scheduler for the Redshift cluster, resulting in a 40% cost reduction.",
         "Implemented Microservice based approach for independent deployment and scaling."
       ],
-      "cloudServices": ["IAM", "Glue", "S3", "Lambda", "SQS", "Redshift", "DynamoDB", "Event Bridge", "KMS", "CloudWatch", "Connect", "Lex"]
+      "techStacks": ["IAM", "Glue", "S3", "Lambda", "SQS", "Redshift", "DynamoDB", "Event Bridge", "KMS", "CloudWatch", "Connect", "Lex"]
     },
     {
       "company": "Nirmalya Labs Pvt. Ltd.",
@@ -38,7 +48,8 @@
         "Developed full-stack web applications processing data for over 50,000 concurrent users.",
         "Built custom enterprise-level data visualization tools with interactive graphical interfaces.",
         "Mentored team members on Kibo E-commerce platform and database security optimization."
-      ]
+      ],
+      "techStacks": ["Node.js", "JavaScript", "Angular", "MySQL" , "MongoDB"]
     }
   ]
   
