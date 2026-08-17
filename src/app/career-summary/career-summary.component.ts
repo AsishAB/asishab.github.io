@@ -37,10 +37,10 @@ export class CareerSummaryComponent {
 
   get overallSummary(): string {
     return `
-  Data Engineer with ${this.totalExperienceYears} years of experience in AWS, Spark ETL, Snowflake, Databricks,
+  AI & Data Engineer with ${this.totalExperienceYears} years of experience in GenAI, AWS, Spark ETL, Snowflake, Databricks,
   and API development, delivering scalable, cost-optimized enterprise solutions.
   \n
-  Primary Skills- AWS , Python , Terraform, Pyspark, Snowflake, Databricks, SQL, NoSQL (MongoDB)
+  Primary Skills- Generative AI,AWS , Python , Terraform, Pyspark, Snowflake, Databricks, SQL, NoSQL (MongoDB)
   \n
   Secondary Skills - NodeJS, Git, CI/CD Tools (Jenkins, Github Actions)
   `;
